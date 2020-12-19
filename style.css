@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  background-size: cover;
+  color: #ffff00;
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#score {
+  margin-left: 1em;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black 1px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pill {
+  background-color: #ffff00;
+  border: 8px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: #1919a6;
+}
+
+.power-pellet {
+  background-color: #dea185;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.blinky {
+  background-color: #d03e19;
+}
+
+.pinky {
+  background-color: #ea82e5;
+}
+
+.inky {
+  background-color: #46bfee;
+}
+
+.clyde {
+  background-color: #db851c;
+}
+
+.pac-man {
+  background-color: #ffff00;
+  border-radius: 10px;
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+}
